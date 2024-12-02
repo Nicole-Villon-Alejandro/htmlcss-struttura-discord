@@ -1,0 +1,19 @@
+html{
+    font-family: sans-serif;
+}
+
+/* altezze debug */
+header{
+    height: 250px;
+    background-color: blue;
+}
+
+main{
+    height: 500px;
+    background-color: white;
+}
+footer{
+    height: 250px;
+    background-color: aqua;
+}
+

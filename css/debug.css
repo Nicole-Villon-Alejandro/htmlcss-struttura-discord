@@ -1,0 +1,7 @@
+*{
+    outline: 1px solid black;
+}
+
+header, main, footer{
+    outline: 3px solid red;
+}
