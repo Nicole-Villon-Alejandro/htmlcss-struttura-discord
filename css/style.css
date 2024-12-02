@@ -2,12 +2,17 @@ html{
     font-family: sans-serif;
 }
 
-/* altezze debug */
 header{
+    display: flex;
+    justify-content: space-between;
     height: 250px;
     background-color: blue;
 }
 
+header div{
+    height: 40px;
+    background-color: aquamarine;
+}
 main{
     height: 500px;
     background-color: white;
@@ -17,3 +22,13 @@ footer{
     background-color: aqua;
 }
 
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.container-flex{
+    background-color: pink;
+
+}
