@@ -7,6 +7,8 @@ html{
     --color2: #daa521;
     --color3: #EE81EE;
     --color4: #D3D3D3;
+    --color5: #21B2AA;
+    --color6: #23272A;
 }
 header{
     height: 300px;
@@ -62,7 +64,16 @@ main section{
     height: 60px;
 }
 
+footer .flex div{
+    flex-basis: calc((100%) / 5);
+    height: 50px;
+    background-color: var(--color5);
+}
+
+footer .flex div:first-child{
+    flex-basis: 25%;
+}
+
 footer{
-    height: 250px;
-    background-color: aqua;
+    background-color: var(--color6);
 }
