@@ -2,29 +2,69 @@ html{
     font-family: sans-serif;
 }
 
+:root{
+    --color1: #ADD8E6;
+    --color2: #daa521;
+    --color3: #EE81EE;
+    --color4: #D3D3D3;
+}
 header{
-    display: flex;
-    justify-content: space-between;
-    height: 250px;
-    background-color: blue;
+    height: 300px;
+    padding-block: 15px;
+    background-color: var(--color1);
 }
 
-header div{
-    height: 40px;
-    background-color: aquamarine;
+.flex{
+    display: flex;
 }
-main{
-    height: 500px;
-    background-color: white;
+
+header > .flex{
+    justify-content: space-around;
 }
+
+.logo,
+.menu,
+.btn-accedi{
+    height: 50px;
+    width: 50px;
+    background-color: var(--color2);
+}
+
+.text-container{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    height: 100px;
+    background-color: var(--color3) ;
+}
+
+.container-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+main section.bg-gray{
+    background-color: var(--color4);
+}
+
+main section{
+    height: 80px;
+    padding: 20px 0;
+}
+
+.flex-basis-60{
+    flex-basis: 60%;
+    height: 60px;
+}
+
+.flex-basis-40{
+    flex-basis: 40%;
+    height: 60px;
+}
+
+
+
 footer{
     height: 250px;
     background-color: aqua;
 }
-
-main{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-}
-
